@@ -1,10 +1,9 @@
-from disutils.core import setup
+# from disutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
 
 	name = 'braces',
-	packages=['braces',],
-	license='Creative Commons Attribution-Noncommercial-Share Alike license',
-	long_description=open('README.txt').read(),
-	url='https://github.com/jesseturland/braces'
+	version='1.0',
+	packages=find_packages(),
 	)
